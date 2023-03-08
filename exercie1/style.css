@@ -1,12 +1,17 @@
 body
 {
-    background-color: violet;
+    
     text-align: center;
 }
 p
 {
-
-color: blue
+color:red;
+}
+#moi{
+    color: chartreuse;
+}
+.meta{
+    color: chocolate;
 }
 h2
 {

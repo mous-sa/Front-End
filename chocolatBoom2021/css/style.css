@@ -1,0 +1,221 @@
+body {
+
+
+    background-color: aqua;
+
+    box-sizing: border-box;
+    box-sizing: margin-right 10em;
+    padding-left: 1%;
+
+}
+
+#logo {
+    box-sizing: border-box;
+    padding-left: 35%;
+    font-size: large;
+}
+
+nav {
+    box-sizing: border-box;
+    background-color: rgb(44, 42, 42);
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 0.5%;
+    font-size: 1.4em;
+    padding-top: 1%;
+
+}
+
+h1 {
+    font-size: 1.6em;
+    margin: 0.67em 0;
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-sizing: border-box;
+    color: white;
+}
+
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-sizing: border-box;
+    background-color: rgb(70, 56, 56);
+    color: white;
+
+
+}
+
+/*######container######*/
+
+@media screen and (max-width:390px) {}
+
+aside {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 30%;
+    flex-shrink: 130;
+
+
+}
+
+section {
+
+    background-color: rgb(6, 105, 105);
+    block-size: 100%;
+    text-align: center;
+    width: 70%;
+
+}
+
+main.container {
+    display: flex;
+    box-sizing: border-box;
+    gap: 1em;
+
+}
+
+
+
+.do {
+    width: 90%;
+    padding-top: 1%;
+    padding-left: 0%;
+    background-size: 100%;
+
+}
+
+
+
+/*Remove the gray background on active links in IE 10.*/
+
+a {
+    background-color: transparent;
+    color: white;
+    text-align: center
+}
+
+/*######Format 912px#######*/
+@media screen and (max-width:920px) {
+    body{
+        padding-right: 2%;
+    }
+
+    main.container {
+
+        flex-direction: column;
+        display: flex;
+        box-sizing: border-box;
+        gap: em;
+        font-size: 1.5rem;
+
+
+    }
+
+    section {
+      
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+        font-size: 1.5re;
+        
+    }
+
+    .do {
+        width: 50%;
+    }
+}
+
+/*######Format 560px##############*/
+
+@media screen and (max-width:560px) {
+    body{
+        padding-right: 1%;
+    }
+    #logo {
+        box-sizing: border-box;
+        padding-left: 18%;
+        font-size: large;
+    }
+
+
+    main.container {
+
+        flex-direction: column;
+        display: flex;
+        box-sizing: border-box;
+        gap: 1em;
+        width: 100%;
+
+    }
+
+    section {
+        font-size: 95%;
+        width: 100%;
+    }
+
+    aside {
+        background-color: whitesmoke;
+        text-align: center;
+        width: 30%;
+        flex-shrink: 130;
+        width: 100%;
+
+    }
+
+}
+
+/*######Format 390px#######*/
+
+@media screen and (max-width:414px) {
+    body{
+        padding-right: 1%;
+    }
+    #logo {
+        box-sizing: border-box;
+        padding-left: 6%;
+       
+    }
+
+    nav {
+        font-size: 90%;
+        justify-content: space-around;
+        padding-top: 2%;
+        font-size: 95%;
+    }
+
+    a {
+        font-size: 95%;
+    }
+
+    section {
+        font-size: 1em;
+        width: 100%;
+
+    }
+
+    main.container {
+        display: flex;
+        box-sizing: border-box;
+        gap: 1em;
+        flex-direction: column;
+        width: 100%;
+        font-size: 95%;
+    }
+
+    aside {
+        background-color: whitesmoke;
+        text-align: center;
+        width: 30%;
+        flex-shrink: 130;
+        width: 100%;
+
+    }
+
+    .do {
+        width: 90%;
+        padding-top: 1%;
+        background-size: 100%;
+
+    }
+
+}
