@@ -1,18 +1,18 @@
 body {
-
-
+    width: 95%;
     background-color: aqua;
-
     box-sizing: border-box;
     box-sizing: margin-right 10em;
-    padding-left: 1%;
+    padding-left: 3%;
+
 
 }
 
 #logo {
     box-sizing: border-box;
     padding-left: 35%;
-    font-size: large;
+
+
 }
 
 nav {
@@ -21,9 +21,9 @@ nav {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: 0.5%;
-    font-size: 1.4em;
+    font-size: 1.3em;
     padding-top: 1%;
-
+	border-radius: 0 10px 0 10px;
 }
 
 h1 {
@@ -32,6 +32,8 @@ h1 {
     font-family: 'PT Sans Narrow', sans-serif;
     box-sizing: border-box;
     color: white;
+    border-radius: 10px 10px 10px 10px;
+   
 }
 
 h2 {
@@ -39,19 +41,20 @@ h2 {
     box-sizing: border-box;
     background-color: rgb(70, 56, 56);
     color: white;
-
+    border-radius: 10px 10px 10px 10px;
 
 }
 
 /*######container######*/
 
-@media screen and (max-width:390px) {}
+
 
 aside {
     background-color: whitesmoke;
     text-align: center;
     width: 30%;
     flex-shrink: 130;
+    font-size: 1.2rem;
 
 
 }
@@ -62,6 +65,7 @@ section {
     block-size: 100%;
     text-align: center;
     width: 70%;
+    font-size: 1.2rem;
 
 }
 
@@ -75,13 +79,20 @@ main.container {
 
 
 .do {
-    width: 90%;
+    width: 40%;
     padding-top: 1%;
     padding-left: 0%;
     background-size: 100%;
 
+
 }
 
+.mi {
+
+    box-sizing: border-box;
+
+    font-size: 1.6rem;
+}
 
 
 /*Remove the gray background on active links in IE 10.*/
@@ -89,52 +100,72 @@ main.container {
 a {
     background-color: transparent;
     color: white;
-    text-align: center
+    text-align: center;
+    
+    
 }
 
 /*######Format 912px#######*/
 @media screen and (max-width:920px) {
-    body{
-        padding-right: 2%;
+    body {
+        padding-left: 0.2rem;
+        width: 98%;
+        height: 50%;
+    }
+
+    nav {
+        font-size: 1.6rem;
+    }
+
+    #logo {
+        padding-right: 20%;
+        width: 90%;
+        
     }
 
     main.container {
 
-        flex-direction: column;
+        flex-direction: row;
         display: flex;
         box-sizing: border-box;
-        gap: em;
+        gap: 0.2em;
         font-size: 1.5rem;
 
 
     }
 
     section {
-      
-        width: 100%;
+        height: 10%;
+        width: 70%;
+        font-size: 0.2rem;
     }
 
     aside {
-        width: 100%;
-        font-size: 1.5re;
-        
-    }
+        width: 30%;
+        height: 10%;
+        font-size: 0.98rem;
 
-    .do {
-        width: 50%;
     }
+.do{
+    padding-top: 1rem;
+}
+.mi{
+    
+    font-size: 1.15rem;
+}
 }
 
 /*######Format 560px##############*/
 
 @media screen and (max-width:560px) {
-    body{
+    body {
         padding-right: 1%;
     }
+
     #logo {
         box-sizing: border-box;
-        padding-left: 18%;
-        font-size: large;
+        padding-left: 24%;
+
     }
 
 
@@ -151,55 +182,6 @@ a {
     section {
         font-size: 95%;
         width: 100%;
-    }
-
-    aside {
-        background-color: whitesmoke;
-        text-align: center;
-        width: 30%;
-        flex-shrink: 130;
-        width: 100%;
-
-    }
-
-}
-
-/*######Format 390px#######*/
-
-@media screen and (max-width:414px) {
-    body{
-        padding-right: 1%;
-    }
-    #logo {
-        box-sizing: border-box;
-        padding-left: 6%;
-       
-    }
-
-    nav {
-        font-size: 90%;
-        justify-content: space-around;
-        padding-top: 2%;
-        font-size: 95%;
-    }
-
-    a {
-        font-size: 95%;
-    }
-
-    section {
-        font-size: 1em;
-        width: 100%;
-
-    }
-
-    main.container {
-        display: flex;
-        box-sizing: border-box;
-        gap: 1em;
-        flex-direction: column;
-        width: 100%;
-        font-size: 95%;
     }
 
     aside {
@@ -213,9 +195,105 @@ a {
 
     .do {
         width: 90%;
-        padding-top: 1%;
+    }
+
+}
+
+/*######Format 415px#######*/
+
+@media screen and (max-width:415px) {
+    body {
+        padding-right: 2.5%;
+
+    }
+
+    #logo {
+        box-sizing: border-box;
+        padding-left: 17%;
+        width: 100%;
+
+    }
+
+    nav {
+       
+        justify-content: space-around;
+        padding-top: 2%;
+        font-size: 1.3rem;
+    }
+
+    a {
+        font-size: 90%;
+    }
+
+    section {
+        font-size: 0.8em;
+        width: 100%;
+
+    }
+
+    main.container {
+        display: flex;
+        box-sizing: border-box;
+        gap: 1em;
+        flex-direction: column;
+        width: 100%;
+        font-size: 95%;
+    }
+
+    aside {
+        background-color: whitesmoke;
+        text-align: center;
+        width: 30%;
+        flex-shrink: 130;
+        width: 100%;
+        font-size: 1.6rem;
+
+    }
+
+    .do {
+        width: 90%;
+        padding-top: 1.5rem;
         background-size: 100%;
 
     }
 
+}
+
+/*######Format 300px##############*/
+@media screen and (max-width:300px) {
+
+    body {
+        padding-right: 0.6rem;
+        width: 19rem;
+    }
+
+    #logo {
+        box-sizing: border-box;
+        padding-left: 22%;
+    }
+
+    nav {
+        font-size: 1.4rem;
+    }
+
+    main.container {
+        display: flex;
+        box-sizing: border-box;
+        gap: 1em;
+        flex-direction: column;
+        width: 100%;
+        font-size: 100%;
+    }
+
+    section {
+        font-size: 1.3em;
+    }
+
+    .do {
+        padding-top: 1rem;
+    }
+
+    aside {
+        font-size: 1.5rem;
+    }
 }
