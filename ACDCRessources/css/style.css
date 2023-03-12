@@ -1,3 +1,90 @@
-ul{color: red !important ;
-    color: red;!important
+body {
+    background-image: url(../img/image-de-fond.jpg);
+    background-size: 190rem;
+    width: 90rem;
+}
+.nav-link{
+    color: red;
+ font-size: 1rem;
+}
+.navbar{
+    width: 70rem;
+    margin-bottom: 2rem;
+}
+.col {
+    align-items: center;
+    margin-left: 1rem;
+
+}
+
+
+.carousel-item {
+    margin-left: 30rem;
+    width: 60rem;
+}
+
+#carouselExampleIndicators {
+    width: 120rem;
+}
+
+.carousel-control {
+    width: 1rem;
+}
+
+.row {
+    margin-left: 1rem;
+}
+
+.img-group {
+    width: 10rem;
+    flex-wrap: nowrap;
+}
+
+/*#################Container1######################*/
+
+.col-2 {
+    margin: 0;
+    margin-left: 10rem;
+}
+
+.case-disc {
+    background-color: white;
+    margin-bottom: 2rem;
+    margin-right: 1rem;
+    width: 50rem;
+}
+
+.img-disco {
+    width: 28rem;
+
+}
+
+/*###############Container2############*/
+
+.container2 {
+    width: 90rem;
+    margin-left: 18rem;
+
+}
+
+
+.contact {
+    margin-bottom: 4rem;
+
+}
+
+
+.form-floating {
+    color: red;
+
+}
+
+.butt-fin {
+    margin-top: 1rem;
+}
+
+.titre {
+    margin: 4rem 0rem;
+    color: white;
+   text-align: center;
 }
