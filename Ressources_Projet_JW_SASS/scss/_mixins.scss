@@ -1,0 +1,45 @@
+/*####"triangle mixin######*/
+//@param{Direction} $direction - Orinetation du triangle 'up', 'right','down' ou 'left'
+//@param{Color} $color - Couleur du triangle
+//@param{Size} $size[0.5rem par défaut] - Taille du triangle
+//@param{Position} $position [ relative par defaut ]- Position du triangle
+
+$color : black;
+$size: 0.5rem;
+$position : relative;
+$direction : ;
+
+@mixin triangle($direction, $color , $size: 0.5rem, $position: relative) {
+    @if ($direction =="down") {
+        direction:arrow-down ;
+        color: $color ;
+        size: $size ;
+        position: relative;
+    }
+
+    @else {
+        @if ($direction=="up") {
+            direction:arrow-up ;
+            color: $color ;
+            size: $size ;
+            position: relative;
+        }
+
+
+        @else {
+            @if ($direction=="left") {
+                direction:arrow-left ;
+                color: $color ;
+                size: $size ;
+                position: relative;
+            }
+
+            @else { 
+                    direction:arrow-right ;
+                    color: $color ;
+                    size: $size ;
+                    position: relative;
+                }
+            }
+        }
+    }

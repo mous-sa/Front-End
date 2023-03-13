@@ -1,76 +1,94 @@
 body {
     background-image: url(../img/image-de-fond.jpg);
     background-size: 190rem;
-    width: 90rem;
+
 }
-.nav-link{
+/*########### Header et Nav#####################*/
+#logohaut {
+    width: 6em;
+    padding-right: 0rem;
+    margin-right: 3rem;
+
+}
+
+.nav-link {
     color: red;
- font-size: 1rem;
+    font-size: 1rem;
 }
-.navbar{
+
+.navbar {
     width: 70rem;
     margin-bottom: 2rem;
+    padding: 0rem;
+
 }
+
 .col {
     align-items: center;
     margin-left: 1rem;
-
 }
 
-
 .carousel-item {
-    margin-left: 30rem;
+    margin-left: 25rem;
     width: 60rem;
 }
 
 #carouselExampleIndicators {
     width: 120rem;
+   
 }
 
-.carousel-control {
-    width: 1rem;
+.carousel-control-prev{
+width: 48rem;
+}
+.carousel-control-next{
+margin-right: 25rem;
+}
+/*#################partie photos groupe###############*/
+
+
+.col{
+    padding: 0rem;
+    margin-left: 2.5rem;
 }
 
-.row {
-    margin-left: 1rem;
-}
-
-.img-group {
-    width: 10rem;
-    flex-wrap: nowrap;
-}
 
 /*#################Container1######################*/
 
 .col-2 {
     margin: 0;
-    margin-left: 10rem;
+    margin-left: 28rem;
 }
 
 .case-disc {
     background-color: white;
     margin-bottom: 2rem;
-    margin-right: 1rem;
+    margin-right: 5rem;
     width: 50rem;
 }
 
 .img-disco {
-    width: 28rem;
+    width: 18rem;
 
 }
 
 /*###############Container2############*/
 
-.container2 {
+
+
+
+
+
+
+/*###############Container3############*/
+.container3 {
     width: 90rem;
     margin-left: 18rem;
 
 }
 
-
 .contact {
-    margin-bottom: 4rem;
-
+    margin-bottom: 1rem;
 }
 
 
@@ -80,11 +98,16 @@ body {
 }
 
 .butt-fin {
-    margin-top: 1rem;
+    margin-top: 2rem;
+
 }
 
 .titre {
-    margin: 4rem 0rem;
+    margin: 2rem 0rem;
     color: white;
-   text-align: center;
+    text-align: center;
+}
+
+.btn {
+    margin-right: 3rem;
 }
