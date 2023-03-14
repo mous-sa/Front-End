@@ -3,8 +3,6 @@
 
 <head>
 	<meta charset="utf-8">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<title>L'Histoire des Jeux Video</title>
 
 	<style>
@@ -14,147 +12,145 @@
 			color: rgb(134, 131, 125);
 		}
 	</style>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 	<link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
-	<nav class="navbar navbar-light bg-dark">
-		<div class="row">
 
-			<div class="container-fluid">
+	<nav>
+		<ul class="navbar">
+			
+			<li class="nav-item">
 
-				<ul class="nav justify-content-center">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Accueil</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="#">Jeux des années 70</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="#">Jeux des années 80</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="#">Jeux des années 90</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link active" href="#">Jeux des années 2000</a>
-					</li>
+				<a class="nav-link active" href="#">Accueil</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=" #">Jeux des années 70</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=" #">Jeux des années 80</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=" #">Jeux des années 90</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href=" #">Jeux des années 2000</a>
+			</li>
+	
+			<form class="d-flex" role="search">
+				<input class="form-control me-2" type="search" placeholder="rechercher" >
+				<button type="button" class="btn btn-success">Rechercher</button>
+			</form>
+		</ul>
 
-			</div>
-			<div class="d-flex offset">
-				<form class="d-flex">
-					<input class="form-control me-2" type="search" placeholder="rechercher" aria-label="Search">
-
-					<button type="button" class="btn btn-success">rechercher</button>
-				</form>
-			</div>
-			</ul>
-
-		</div>
 	</nav>
-	<div>
+	
 		<header>
-			<div>
-				<h1>History Game</h1>
-				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea laborum architecto in
-					deleniti est molestias culpa nobis rem optio, doloribus, sint et ab.</p>
-				<hr>
-				<p>Lorem ipsum dolor sit amet consectetur.</p>
-				<a href="#" role="button">En Savoir plus &nbsp;&nbsp;</a>
-			</div>
-		</header>
-		<h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+			<div class="container text-center">
 
+				<div class="history row">
+					<h1 class="titre">History Game</h1>
+					<p class="text-history">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea laborum architecto in
+						deleniti est molestias culpa nobis rem optio, doloribus, sint et ab.</p>
+					<hr>
+					<p class="text-history2">Lorem ipsum dolor sit amet consectetur.</p>
+					<a href="#" role="button" class="btn-history btn btn-success">En Savoir plus &nbsp;&nbsp;</a>
+				</div>
+				<h3 class="titre">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h3>
+		</header>
 		<section>
-			<div>
-				<div>
-					<a href="#">
-						<div>
+			<div class="partie1  row">
+				<div class="col" >
+						<div class= "col2-d-flex w-100 justify-content-between">
 							<h5>Lorem ipsum 1</h5>
-							<small>Il y a 3 jours</small>
-						</div>
+							<small >Il y a 3 jours</small>
+						
 						<p>Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam
 							viverra nec consectetur ante hendrerit.</p>
 						<small>Donec id elit non mi porta.</small>
-					</a>
-					<a href="#">
-						<div>
+					</div >
+						<div class="col-d-flex w-100 justify-content-between ">
 							<h5>Lorem ipsum 2</h5>
-							<small>Il y a 4 jours</small>
-						</div>
+							<small >Il y a 4 jours</small>
+					
 						<p>Donec a diam lectus. Sed sit amet ipsum mauris. Maecenas congue ligula ac quam
 							viverra nec consectetur ante hendrerit.</p>
 						<small>Donec id elit non mi porta.</small>
-					</a>
-					<a href="#">
-						<div class="d-flex w-100 justify-content-between">
+					</div>
+						<div class="col-d-flex w-100 justify-content-between">
 							<h5 class="mb-1">Lorem ipsum 3</h5>
 							<small class="text-muted">Il y a 5 jours</small>
-						</div>
+						
 						<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus
 							varius blandit.</p>
-						<small class="text-muted">Donec id elit non mi porta.</small>
-					</a>
+						</div>
 				</div>
-			</div>
-			<div class="col-lg-8">
-				<h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+			
+			<div class="col-lg-8 r">
+				<h4 class="titre">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
 					et dolore magna aliqua.</h4>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum
+				<p class="texte-doc" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum
 					mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis
 					dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim,
 					ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem
 					ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis,
 					pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis.
 				</p>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum
+				<p class="texte-doc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus. Sed sit amet ipsum
 					mauris. Maecenas congue ligula ac quam viverra nec consectetur ante hendrerit. Donec et mollis
 					dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim,
 					ut porta lorem lacinia consectetur. Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem
 					ipsum dolor sit amet, consectetur adipiscing elit. Aenean ut gravida lorem. Ut turpis felis,
 					pulvinar a semper sed, adipiscing id dolor. Pellentesque auctor nisi id magna consequat sagittis.
 				</p>
-				<a class="btn btn-color" href="#"><i class="fa fa-image"></i>&nbsp;&nbsp;Ajouter une photo</a>
+				<a href="#" role="button" class="btn-ajouter btn-history btn btn-success">Ajouter une image</a>
 			</div>
+		</div>
 		</section>
 		<hr />
-		<h3>Et au commencement il y eut ...</h3>
-		<section class="row">
-			<img src="img/Space_Invaders.png" alt="Space Invaders" />
-			<img src="img/Pac_Man.jpg" alt="Pac Man" />
-			<img src="img/Donkey_Kong.jpg" alt="Donkey Kong" />
-			<img src="img/Mario_Bros.jpg" alt="Mario" />
-			<img src="img/Space_Harrier.jpg" alt="Space Harrier" />
-			<img src="img/Sonic_the_Hedgehog.jpg" alt="Sonic" />
+		<h3 class="titre">Et au commencement il y eut ...</h3>
+		<section class="jaquettes d-flex ">
+			<img class="boite" src="img/Space_Invaders.png" alt="Space Invaders" />
+			<img class="boite" src="img/Pac_Man.jpg" alt="Pac Man" />
+			<img class="boite" src="img/Donkey_Kong.jpg" alt="Donkey Kong" />
+			<img class="boite" src="img/Mario_Bros.jpg" alt="Mario" />
+			<img class="boite" src="img/Space_Harrier.jpg" alt="Space Harrier" />
+			<img class="boite" src="img/Sonic_the_Hedgehog.jpg" alt="Sonic" />
 		</section>
 		<hr />
-		<h3>Donec ut libero sed arcu vehicula ultricies a non tortor :</h3>
-		<div>
-			<div>
-				<div>
-					<div>Lorem ipsum dolor sit amet</div>
-					<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
+		<h3 class="titre">Donec ut libero sed arcu vehicula ultricies a non tortor :</h3>
+		<div class="list2-group border- rounded">
+			
+			  <div class="col">
+					<div class="mini-t col">Lorem ipsum dolor sit amet</div>
+					<div class=" mini-m col "> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
 						Sed sit amet ipsum mauris. Maecenas congue ligula ac quam viverra nec consectetur ante
-						hendrerit. Donec et mollis dolor. </div>
-					<div>Footer</div>
+						hendrerit. Donec et mollis dolor.</div>
+					<div class="mini-t  col">Footer</div>
 				</div>
 			</div>
+			
 			<br>
 			<div>
 			</div>
 		</div>
 		<hr />
 		<div>
-			<h3>Quelques jeux célèbres et leur chronologie ... </h3>
-			<table>
-				<thead>
-					<tr>
-						<th>Nom du jeu</th>
-						<th>Description</th>
+			<h3 class="titre">Quelques jeux célèbres et leur chronologie ... </h3>
+			<table class="table">
+				<thead >
+					<tr class="descrip-menu">
+						<th class="col-sm-4">Nom du jeu</th>
+						<th class="tf-descrip-menu">Description</th>
 					</tr>
-				</thead>
-				<tbody>
-					<tr>
+				</thead >
+				<tbody >
+					<tr class="grey-clair">
 						<td>Space Invaders</td>
 						<td>C'est un jeu vidéo développé par la société japonaise Taito, sorti en 1978 sur borne
 							d'arcade. Il s'agit d'un shoot them up fixe. Tomohiro Nishikado conçoit et programme le jeu.
@@ -162,9 +158,9 @@
 							que Breakout ou La Guerre des mondes. Considéré comme le premier archétype du shoot them up,
 							il est aussi l'un des titres les plus influents et célèbres de l'histoire du jeu vidéo.</td>
 					</tr>
-					<tr>
+					<tr class="grey-fonce" >
 						<td>Pac Man</td>
-						<td>C'est un jeu vidéo créé par Tōru Iwatani pour l’entreprise japonaise Namco, sorti au Japon
+						<td >C'est un jeu vidéo créé par Tōru Iwatani pour l’entreprise japonaise Namco, sorti au Japon
 							le 22 mai 1980. Le jeu consiste à déplacer Pac-Man, un personnage qui, vu de profil,
 							ressemble à un diagramme circulaire à l’intérieur d’un labyrinthe, afin de lui faire manger
 							toutes les pac-gommes qui s’y trouvent en évitant d’être touché par des fantômes. Lorsque
@@ -174,16 +170,16 @@
 							nouveau genre. Pac-Man est souvent crédité en tant que point de repère dans l'histoire du
 							jeu vidéo, et est parmi les plus célèbres jeux d'arcade de tous les temps.</td>
 					</tr>
-					<tr>
-						<td>Donkey Kong</td>
+					<tr class="grey-clair">
+						<td >Donkey Kong</td>
 						<td>C'est un jeu vidéo d'arcade créé par Nintendo en 1981. C'est un des premiers jeux de
 							plates-formes. Si le scénario est simple, il est suffisamment développé pour l'époque :
 							Mario, appelé alors Jumpman, doit secourir une demoiselle en détresse, capturée par un
 							gorille géant, Donkey Kong. Les deux personnages qu'il introduit sont appelés à devenir deux
 							icônes de la marque Nintendo.</td>
 					</tr>
-					<tr>
-						<td>Space Harrier</td>
+					<tr class="grey-fonce">
+						<td >Space Harrier</td>
 						<td>Space Harrier est une série de jeux vidéo de shoot 'em up développée par Sega-AM2, puis
 							Amusement Vision, et éditée par Sega, apparue en arcade en 1985, sur consoles Sega et sur
 							ordinateurs. Alors que la caméra réalise un scrolling vers l'avant, le joueur contrôle un
@@ -193,15 +189,15 @@
 							volant, des mammouths à un œil, des têtes de statues de l'Île de Pâques volantes, ou des
 							extraterrestres.</td>
 					</tr>
-					<tr>
-						<td>Sonic</td>
+					<tr class="grey-clair" >
+						<td >Sonic</td>
 						<td>Le premier jeu vidéo Sonic, Sonic the Hedgehog, est sorti le 23 juin 1991 dans le but de
 							doter Sega d'une mascotte qui puisse rivaliser avec celle de leur concurrent Nintendo,
 							Mario. Depuis, Sonic est devenu l'un des personnages de jeu vidéo les plus connus au monde,
 							avec des jeux qui se sont vendus à plus de 70 millions d'exemplaires</td>
 					</tr>
-					<tr>
-						<td>Mario Kart</td>
+					<tr class="grey-fonce">
+						<td >Mario Kart</td>
 						<td>Mario Kart est une série de jeux vidéo de course et de combat motorisé produite par
 							Nintendo, adaptée de la série de jeux de plates-formes Super Mario. Débutée en 1992 par
 							Super Mario Kart sur Super Nintendo, la série existe encore plus de vingt-cinq ans après
@@ -223,11 +219,12 @@
 			</address>
 		</footer>
 	</div>
-	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+	
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+		integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
 		crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-		integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+		integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
 		crossorigin="anonymous"></script>
 </body>
 

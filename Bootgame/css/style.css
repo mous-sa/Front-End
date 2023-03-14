@@ -1,9 +1,145 @@
-.nav-link{
-    color:rgba(243, 237,237, 0.4)!important;
+body {
+    background: black;
 }
-.btn-link{
-    background-color: green !important;
+
+.navbar {
+    background: rgb(83, 83, 83);
+    justify-content: space-around;
+    margin: 0;
+    margin-left: 8.8rem;
+    width: 90rem;
 }
-header{
-    background-color: rgb(219, 216, 216);
+
+.nav-link {
+    color: rgba(243, 237, 237, 0.4) !important;
+}
+
+li.nav-item {
+    list-style: none;
+
+}
+
+button.btn {
+    width: 14rem;
+}
+
+.me-2 {
+    margin: 0 !important;
+
+}
+.history{
+    padding-top: 2rem;
+}
+.text-history {
+    margin-bottom: 1rem;
+}
+
+.text-history2 {
+    margin-top: 1rem;
+
+}
+
+.btn-history {
+    width: 10rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.history.row {
+    background-color: rgb(235, 232, 232);
+    padding-left: 0%;
+}
+
+div.partie1 {
+    padding-left: 10rem;
+    flex-direction: row;
+
+
+}
+
+.col2-d-flex {
+    background-color: green;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.col-d-flex {
+    background-color: white;
+    color: rgb(83, 83, 83);
+    font-size: 0.9rem;
+
+}
+
+h1.titre {
+    color: rgba(39, 38, 38, 0.4);
+    text-align: start;
+}
+
+h2.titre {
+    color: rgba(243, 237, 237, 0.4);
+    text-align: start;
+}
+
+h3.titre {
+    color: rgba(243, 237, 237, 0.4);
+    margin-left: 10rem;
+}
+
+h4.titre {
+    color: rgba(243, 237, 237, 0.4);
+}
+
+.texte-doc {
+    color: rgba(243, 237, 237, 0.4);
+}
+
+.btn-ajouter {
+
+    margin-bottom: 0;
+}
+
+.jaquettes {
+    margin-left: 8rem;
+}
+
+.boite {
+    width: 12rem;
+    margin-left: 2rem;
+}
+
+.list2-group {
+    margin-left: 1em;
+}
+
+.mini-t {
+    background-color: green;
+    color: white;
+    width: 23rem;
+    margin-left: 9rem;
+}
+
+.mini-m {
+    background-color: white;
+    color: rgba(116, 115, 115, 0.4);
+    width: 23rem;
+    margin-left: 9rem;
+}
+
+.descrip-menu{
+background-color: green;
+color: white;
+text-align: center;
+}
+.table{
+    width: 82rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+}
+.grey-clair{
+    background-color: rgb(83, 83, 83);
+    color: white;
+}
+.grey-fonce{
+    background-color:  rgb(51, 51, 51);
+    color: white;
 }
