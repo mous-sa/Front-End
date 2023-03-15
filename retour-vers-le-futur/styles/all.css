@@ -1,0 +1,64 @@
+/*############nav#################*/
+.navig-b {
+    justify-content: center;
+    background-color: rgb(240, 236, 21) !important;
+    padding: 0.1rem;
+
+}
+
+.rvfa {
+    background: url(../images/nav-logo-accueil.png);
+    background-size: cover;
+    padding-bottom: 3rem;
+    padding-right: 7rem;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-right: 45rem;
+}
+
+.rvf1 {
+    background: url(../images/nav-logo1.jfif);
+    background-size: cover;
+    padding-bottom: 3rem;
+    padding-right: 7rem;
+    border-top-width: 3px;
+    border-bottom-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    margin-right: 10rem;
+}
+
+.rvf2 {
+    background: url(../images/nav-logo2.jfif);
+    background-size: cover;
+    padding-bottom: 3rem;
+    padding-right: 7rem;
+    border-top-width: 2px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    margin-right: 10rem;
+}
+
+.rvf3 {
+    background: url(../images/nav-logo3.jfif);
+    background-size: cover;
+    padding-bottom: 3rem;
+    padding-right: 7rem;
+    border-top-width: 3px;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    margin-right: 20rem;
+}
+/*############Foooter#################*/
+
+#text-fo{
+    background-color: rgb(240, 236, 21) ;
+    font-size:1rem;
+    justify-content: flex-center;
+    margin-top: 2rem;
+   padding-left: 110rem;
+}
