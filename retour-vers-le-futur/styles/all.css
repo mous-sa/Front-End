@@ -1,10 +1,10 @@
-/*############nav#################*/
-.navig-b {
-    justify-content: center;
-    background-color: rgb(240, 236, 21) !important;
-    padding: 0.1rem;
-
+/*##########bodyy###########*/
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    background-clip: border-box;
 }
+/*############nav#################*/
 
 .rvfa {
     background: url(../images/nav-logo-accueil.png);
@@ -15,7 +15,8 @@
     border-bottom-width: 3px;
     border-left-width: 3px;
     border-right-width: 3px;
-    margin-right: 45rem;
+    margin-right: 30rem;
+    margin-left: 20rem;
 }
 
 .rvf1 {
@@ -28,6 +29,7 @@
     border-left-width: 3px;
     border-right-width: 3px;
     margin-right: 10rem;
+   
 }
 
 .rvf2 {
@@ -51,14 +53,23 @@
     border-right-width: 3px;
     border-left-width: 3px;
     border-bottom-width: 3px;
-    margin-right: 20rem;
+    margin-right: 0rem;
+}
+/*###########hearder##############*/
+.titre-accueil {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    margin-top: 8rem;
+    padding-left: 5rem;
+    text-shadow: 1px 0 0;
+    margin-bottom: 6rem;
 }
 /*############Foooter#################*/
 
-#text-fo{
-    background-color: rgb(240, 236, 21) ;
-    font-size:1rem;
+#text-fo {
+    font-size: 1.1rem;
     justify-content: flex-center;
-    margin-top: 2rem;
-   padding-left: 110rem;
+    margin-top: 3rem;
+    padding-left: 105rem;
+    
 }

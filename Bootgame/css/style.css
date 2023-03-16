@@ -1,13 +1,12 @@
 body {
     background: black;
+    width: 80%;
 }
 
 .navbar {
     background: rgb(83, 83, 83);
     justify-content: space-around;
-    margin: 0;
-    margin-left: 8.8rem;
-    width: 90rem;
+    width: 122rem;
 }
 
 .nav-link {
@@ -25,13 +24,18 @@ button.btn {
 
 .me-2 {
     margin: 0 !important;
+}
 
+.history {
+    padding-right: 12rem;
+    padding-top: 3rem;
+    text-align: left;
+    width: 90rem;
+    margin-left: 3rem;
 }
-.history{
-    padding-top: 2rem;
-}
+
 .text-history {
-    margin-bottom: 1rem;
+    margin-bottom: 4rem;
 }
 
 .text-history2 {
@@ -48,13 +52,16 @@ button.btn {
 .history.row {
     background-color: rgb(235, 232, 232);
     padding-left: 0%;
+    border-radius: 5px;
 }
 
 div.partie1 {
     padding-left: 10rem;
     flex-direction: row;
+}
 
-
+.suivie-com {
+    border-radius: 20px;
 }
 
 .col2-d-flex {
@@ -67,7 +74,6 @@ div.partie1 {
     background-color: white;
     color: rgb(83, 83, 83);
     font-size: 0.9rem;
-
 }
 
 h1.titre {
@@ -109,6 +115,7 @@ h4.titre {
 
 .list2-group {
     margin-left: 1em;
+
 }
 
 .mini-t {
@@ -125,21 +132,30 @@ h4.titre {
     margin-left: 9rem;
 }
 
-.descrip-menu{
-background-color: green;
-color: white;
-text-align: center;
+.descrip-menu {
+    background-color: green;
+    color: white;
+    text-align: center;
 }
-.table{
+
+.table {
     width: 82rem;
     margin-left: 10rem;
     margin-top: 1rem;
 }
-.grey-clair{
+
+.grey-clair {
     background-color: rgb(83, 83, 83);
     color: white;
 }
-.grey-fonce{
-    background-color:  rgb(51, 51, 51);
+
+.grey-fonce {
+    background-color: rgb(51, 51, 51);
     color: white;
+}
+
+.col-lg-8 {
+    width: 67%;
+
+    text-align: left;
 }

@@ -1,32 +1,38 @@
+/*##############body##############*/
 body {
     background-image: url(../images/fond-ecran1.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-    background-clip: border-box;
+}
+
+/*#############nav################*/
+.navig-b {
+    background-color: black !important;
+    justify-content: center;
+    padding: 0.1rem;
 }
 
 /*############header##############*/
 .titre-accueil {
-    color: azure;
-    font-size: 2rem;
-    margin-top: 8rem;
-    padding-left: 5rem;
-    text-shadow: 1px 0 0;
-    margin-bottom: 6rem;
+    color: goldenrod;
 }
 
 /*###########Container2###############*/
 #texte-accueil {
-    color: white;
+    color: whitesmoke;
     margin-top: 2rem;
     margin-left: 4rem;
     justify-content: center;
-    font-family: 'PT Sans Narrow', sans-serif;
-    font-size: 1.6em;
-
+    font-size: 1.3em;
+    font-family: 'Gloria Hallelujah', cursive;
 }
 
 #gif-accueil {
     margin-top: 0rem;
     margin-left: 45rem;
+    margin-bottom: 1rem;
+}
+
+/*############footer###############*/
+#text-fo {
+    background-color: mediumblue;
+    color: white;
 }
