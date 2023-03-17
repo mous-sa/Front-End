@@ -3,6 +3,7 @@ body {
     background-image: url(../images/fond-ecran1.jpg);
 }
 
+
 /*#############nav################*/
 .navig-b {
     background-color: black !important;
@@ -11,7 +12,7 @@ body {
 }
 
 /*############header##############*/
-.titre-accueil {
+#titre-accueil {
     color: goldenrod;
 }
 
