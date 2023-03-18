@@ -56,7 +56,7 @@ body {
     margin-right: 0rem;
 }
 /*###########hearder##############*/
-#titre-accueil {
+.titre-accueil {
     font-family: 'Permanent Marker', cursive;
     font-size: 2rem;
     margin-top: 8rem;
@@ -66,10 +66,10 @@ body {
 }
 /*############Foooter#################*/
 
-#text-fo {
+#text-footer{
     font-size: 1.1rem;
     justify-content: flex-center;
     margin-top: 3rem;
     padding-left: 105rem;
-    
+    color: white;
 }

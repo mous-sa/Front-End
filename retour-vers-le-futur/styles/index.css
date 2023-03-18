@@ -12,7 +12,7 @@ body {
 }
 
 /*############header##############*/
-#titre-accueil {
+.titre-accueil {
     color: goldenrod;
 }
 
@@ -23,17 +23,16 @@ body {
     margin-left: 4rem;
     justify-content: center;
     font-size: 1.4em;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Indie Flower', cursive;
 }
 
 #gif-accueil {
     margin-top: 0rem;
-    margin-left: 45rem;
+    margin-left: 35rem;
     margin-bottom: 1rem;
 }
 
 /*############footer###############*/
-#text-fo {
+#text-footer {
     background-color: mediumblue;
-    color: white;
 }

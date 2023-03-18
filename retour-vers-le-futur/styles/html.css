@@ -1,36 +1,38 @@
-/*############RETOUR VERS LE FUTUR 1#####################################################*/
-/*##########bodyy###########*/
+/*#########################################################################RETOUR VERS LE FUTUR 1##############################################################################################################*/
+
+/*###########################################bodyy################################*/
 body {
     background-image: url(../images/fond-ecran10.jpg);
     color: rgb(237, 241, 245);
     font-size: 1.2rem;
 }
 
-/*############nav#################*/
+/*########################nav##############################*/
 .navig-b2 {
     background-color: rgb(4, 124, 4) !important;
     justify-content: center;
     padding: 0.1rem;
 }
 
-#titre-accueil {
+.titre-accueil {
     margin-bottom: 3rem;
     margin-left: 24rem;
     color: orangered;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .text-dintro {
     padding-right: 0rem;
     width: 18rem;
     font-family: 'Indie Flower', cursive;
-    font-size: 24px;
+    font-size: 26px;
 }
 
 
 
 .text0 {
     margin-bottom: 3rem;
-    margin-left: 5rem;
+    margin-left: 13rem;
     width: 78rem;
     
 }
@@ -46,12 +48,14 @@ body {
 
     width: 35rem;
     padding-left: 20rem;
-    margin-top: 32rem;
+    margin-top: 37rem;
     margin-left: 2rem;
 }
 
 
-/*###########container rvf1#################*/
+/*######################container rvf1##########################*/
+
+/*########carousel1###########*/
 #prems-carousel {
     display: flex;
     flex-direction: row;
@@ -61,7 +65,7 @@ body {
     margin-top: 4rem;
     padding-bottom:4rem;
     margin-right:2rem;
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-left: 4rem;
     font-family: 'Indie Flower', cursive;
 }
@@ -80,18 +84,7 @@ body {
     width: 80rem;
     font-size: 1.7rem;
 }
-
-.video-extrait-rvf1 {
-    margin-top: 4rem;
-    margin-right: 12rem;
-
-}
-
-.second-video-rvf1 {
-    margin-left: 12rem;
-    margin-right: 0rem;
-}
-
+/*############carousel2#############*/
 .carou2-rvf1 {
     margin-left: 35rem;
     width: 90rem;
@@ -106,5 +99,70 @@ body {
     font-family: 'Indie Flower', cursive;
     font-size: 1.7rem;
 }
+.video-extrait-rvf1 {
+    margin-top: 4rem;
+    margin-right: 12rem;
 
+}
 
+.second-video-rvf1 {
+    margin-left: 12rem;
+    margin-right: 0rem;
+}
+
+.phrase-bas-photos{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: aqua;
+    font-size: 1.3rem;
+}
+.manoir-doc-1955{
+    width: 22rem;
+}
+.plutonium{
+    width: 22rem;
+}
+
+.text-avant-footer{
+    color: orangered;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+}
+
+.gif-rvf1{
+    margin-top: 2rem;
+}
+/*#########################Footer#####################*/
+#text-footer{
+    background-color:green;
+}
+
+/*#########################################################################RETOUR VERS LE FUTUR 2 ##############################################################################################################*/
+/*########################nav##############################*/
+
+.navig-rvf2-b2 {
+    background-color: rgb(180, 180, 13)  !important;
+    justify-content: center;
+    padding: 0.1rem;
+}
+
+.ti-rvf2{
+    margin-bottom: 3rem;
+    margin-left: 24rem;
+    color: rgb(0, 255, 115);
+    font-family: 'Permanent Marker', cursive;
+}
+
+.phrase-bas-photos-intro2{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: rgb(255, 102, 0);
+    font-size: 1.4rem;
+   
+
+}
+
+.intro-photos {
+
+    width: 40rem;
+    padding-left: 20rem;
+    margin-top: 45rem;
+    margin-left: 2rem;
+}
