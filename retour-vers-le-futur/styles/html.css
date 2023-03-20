@@ -14,21 +14,21 @@ body {
     padding: 0.1rem;
 }
 
-.titre-accueil {
+.titre-rvf1 {
     margin-bottom: 3rem;
-    margin-left: 24rem;
+    margin-left: 21rem;
     color: orangered;
     font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
 }
 
 .text-dintro {
     padding-right: 0rem;
     width: 18rem;
     font-family: 'Indie Flower', cursive;
-    font-size: 26px;
+    font-size: 28px;
 }
-
-
 
 .text0 {
     margin-bottom: 3rem;
@@ -45,11 +45,8 @@ body {
 }
 
 .intro-photos {
-
-    width: 35rem;
-    padding-left: 20rem;
-    margin-top: 37rem;
-    margin-left: 2rem;
+   margin-right: 20rem;
+  
 }
 
 
@@ -58,7 +55,7 @@ body {
 /*########carousel1###########*/
 #prems-carousel {
     display: flex;
-    flex-direction: row;
+  
 }
 
 .text-carousel1 {
@@ -71,8 +68,8 @@ body {
 }
 
 .carou-rvf1 {
-    margin-left: 35rem;
-    width: 45rem;
+    margin-left: 30rem;
+    width: 40rem;
     margin-top: 2rem;
 }
 
@@ -87,8 +84,8 @@ body {
 
 /*############carousel2#############*/
 .carou2-rvf1 {
-    margin-left: 35rem;
-    width: 90rem;
+    margin-left: 30rem;
+    width: 70rem;
     margin-top: 2rem;
 }
 
@@ -141,7 +138,7 @@ body {
 /*#########################Footer#####################*/
 #text-footer {
     background-color: green;
-    padding-left: 102rem;
+    padding-left: 84rem;
 }
 
 /*#########################################################################RETOUR VERS LE FUTUR 2 ##############################################################################################################*/
@@ -153,11 +150,13 @@ body {
     padding: 0.1rem;
 }
 
-.ti-rvf2 {
+.titre-rvf2 {
     margin-bottom: 3rem;
-    margin-left: 24rem;
+    margin-left: 20rem;
     color: rgb(0, 255, 115);
     font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
 }
 
 .phrase-bas-photos-intro2 {
@@ -178,72 +177,54 @@ body {
 /*##############container-rvf2 ##############*/
 
 .photos-extrait1-rvf2 {
-    margin-left: 2rem;
     margin-top: 3rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
+
+    flex-wrap: nowrap;
 }
 
 .photos-rvf2-n1 {
     margin-top: 2rem;
     width: 20rem;
     margin-bottom: 1rem;
-    margin-left: 10rem;
-    margin-right: 6rem;
+    margin-left: 13rem;
+
 }
 
 .photos-rvf2-n2 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    width: 22rem;
-    margin-left: rem;
+    width: 20rem;
+    margin-left:11rem;
+
 }
 
-.photos-rvf2-n3 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    margin-right: 27rem;
-    width: 21rem;
-}
+
 
 .phrase1-bas-photos-rvf2 {
-    margin-left: 11rem;
+    margin-left: 10rem;
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: rgb(255, 102, 0);
     font-size: 1.4rem;
 }
 
 .phrase2-bas-photos-rvf2 {
-    margin-left: 6rem;
+    margin-left: 16rem;
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: rgb(255, 102, 0);
     font-size: 1.4rem;
 }
 
-.photos-rvf2-n4 {
-    margin-top: 1.2rem;
-    margin-bottom: 1rem;
-    width: 22rem;
-    margin-left: 15rem;
-    margin-right: 10rem;
-}
-
-.photos-rvf2-n5 {
+.photos-rvf2-n3 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    margin-right: 0rem;
-    width: 22rem;
+    margin-left: 37rem;
+    width: 21rem;
 }
 
-.phrase4-bas-photos-rvf2 {
-    margin-left: 20rem;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    color: rgb(255, 102, 0);
-    font-size: 1.4rem;
 
-}
-
-.phrase5-bas-photos-rvf2 {
-    margin-left: 6rem;
+.phrase3-bas-photos-rvf2 {
+    margin-left: 42rem;
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: rgb(255, 102, 0);
     font-size: 1.4rem;
@@ -293,7 +274,7 @@ body {
     font-size: 1.2rem;
     justify-content: flex-center;
     margin-top: 3rem;
-    padding-left: 102rem;
+    padding-left: 85rem;
     color: white;
 }
 
@@ -304,12 +285,16 @@ body {
     padding: 0.1rem;
 }
 
-.ti-rvf3 {
+.titre-rvf3{
     margin-bottom: 3rem;
-    margin-left: 24rem;
+    margin-left: 18rem;
     color: rgb(235, 11, 123);
     font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
 }
+    
+
 
 .phrase-bas-photos-intro3 {
     font-family: 'Edu NSW ACT Foundation', cursive;
@@ -321,17 +306,19 @@ body {
 
 .photos-delorean-rvf3-n1 {
     width: 22rem;
-    margin-left: 42rem;
+    margin-left: 38rem;
+    margin-top: 2rem;
 }
 
 .phrase1-bas-photos-delorean-rvf3 {
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: magenta;
     font-size: 1.4rem;
-    margin-left: 47rem;
+    margin-left: 42rem;
 }
+
 .photos-extrait1-rvf3 {
-    margin-left: 2rem;
+    margin-left: 12rem;
     margin-top: 3rem;
     margin-bottom: 4rem;
 }
@@ -340,98 +327,75 @@ body {
     width: 20rem;
     margin-left: 15rem;
     margin-top: 6rem;
-    
-}
-.photos-cowboy-rvf3-n2 {
-    width: 14rem;
-    margin-left: 12rem;
-    
 }
 
-.phrase2-bas-photos-vetement-rvf3 {
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    color: magenta;
-    font-size: 1.4rem;
-    margin-left: 17rem;
-}
-
-.phrase3-bas-photos-vetement-rvf3 {
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    color: magenta;
-    font-size: 1.4rem;
-    margin-left: 13rem;
-}
-.photos-rvf3-n3{
+.photos-rvf3-n3 {
     width: 20rem;
-    margin-left: 10rem;
-}
-.photos-rvf3-n4{
-    width:20rem;
-    margin-left: 11rem;  
+
 }
 
-.photos-rvf3-n5{
+.photos-rvf3-n4 {
     width: 20rem;
     margin-left: 2rem;
 }
-.photos-rvf3-n6{
+
+.photos-rvf3-n5 {
     width: 20rem;
-    margin-left: 38rem;
+    margin-right: 4rem;
+}
+
+.phrase3-bas-photos-rvf3 {
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: magenta;
+    font-size: 1.4rem;
+    margin-left: 3rem;
     margin-top: 1rem;
 }
 
-.phrase4-bas-photos-rvf3{
+.phrase4-bas-photos-rvf3 {
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: magenta;
     font-size: 1.4rem;
-    margin-left: 13rem;
-   margin-top: 1rem; 
-}
-.phrase5-bas-photos-rvf3{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    color: magenta;
-    font-size: 1.4rem;
-    margin-left: 11rem;
+    margin-left: 2rem;
     margin-top: 1rem;
 }
-.phrase6-bas-photos-rvf3{
+
+.phrase5-bas-photos-rvf3 {
     font-family: 'Edu NSW ACT Foundation', cursive;
     color: magenta;
     font-size: 1.4rem;
-    margin-left:4rem;
+    margin-left: 4rem;
     margin-top: 1rem;
 }
-.phrase7-bas-photos-rvf3{
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    color: magenta;
-    font-size: 1.4rem;
-    margin-left: 42rem;
-    margin-top: 1rem; 
-}
-.premiere-video-rvf3{
+
+
+.premiere-video-rvf3 {
     margin-top: 2rem;
-    margin-left: 24rem;
+    margin-left: 34rem;
     width: 20rem;
 }
-.first-video-rvf3{
-    margin-right: 20rem;
+
+.first-video-rvf3 {
+    margin-right: 10rem;
 }
-.text-avant-footer-rvf3{
+
+.text-avant-footer-rvf3 {
     margin-top: 6rem;
     color: goldenrod;
     font-family: 'Edu NSW ACT Foundation', cursive;
-    text-align: center; 
+    text-align: center;
 }
-.gif-rvf3{
-    margin-left:40rem ;
+
+.gif-rvf3 {
+    margin-left: 40rem;
     margin-top: 4rem;
 }
 
-#text-footer3{
+#text-footer3 {
     background-color: rgb(206, 3, 3);
     font-size: 1.2rem;
     justify-content: flex-center;
     margin-top: 3rem;
-    padding-left: 102rem;
+    padding-left: 85rem;
     color: white;
 }

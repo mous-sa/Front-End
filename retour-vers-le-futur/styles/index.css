@@ -5,8 +5,7 @@ body {
 
 
 /*#############nav################*/
-.navig-b {
-    background-color: black !important;
+.nav-acceuil {
     justify-content: center;
     padding: 0.1rem;
 }
@@ -14,11 +13,21 @@ body {
 /*############header##############*/
 .titre-accueil {
     color: goldenrod;
+    margin-left: 12rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 8rem;
 }
 
 /*###########Container2###############*/
+
+
+
+
+
 #texte-accueil {
-    color:whitesmoke;
+    color: whitesmoke;
     margin-top: 2rem;
     margin-left: 4rem;
     justify-content: center;
@@ -26,14 +35,18 @@ body {
     font-family: 'Indie Flower', cursive;
 }
 
-#gif-accueil {
-    margin-top: 0rem;
+.img-fluid {
+    margin-top: 3rem;
     margin-left: 35rem;
     margin-bottom: 1rem;
+    width: 30rem;
 }
 
 /*############footer###############*/
 #text-footer {
     background-color: mediumblue;
-    padding-left: 102rem;
+    padding-left: 85rem;
+}
+.table{
+    margin-top: 12rem;
 }
