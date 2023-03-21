@@ -1,11 +1,12 @@
 /*##############body##############*/
 body {
     background-image: url(../images/fond-ecran1.jpg);
+    
 }
 
 
 /*#############nav################*/
-.nav-acceuil {
+.nav-accueil {
     justify-content: center;
     padding: 0.1rem;
 }
@@ -13,7 +14,7 @@ body {
 /*############header##############*/
 .titre-accueil {
     color: goldenrod;
-    margin-left: 12rem;
+    margin-left: 20rem;
     font-family: 'Permanent Marker', cursive;
     font-size: 2rem;
     margin-top: 4rem;
@@ -21,18 +22,21 @@ body {
 }
 
 /*###########Container2###############*/
-
-
-
-
-
 #texte-accueil {
     color: whitesmoke;
     margin-top: 2rem;
     margin-left: 4rem;
     justify-content: center;
-    font-size: 1.4em;
+    font-size: 1.6em;
     font-family: 'Indie Flower', cursive;
+}
+.titre-fin-accueil {
+    color: rgb(238, 9, 9);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    text-align: center;
 }
 
 .img-fluid {
