@@ -1,4 +1,4 @@
-/*MyVar="Bonjour" ;
+MyVar="Bonjour" ;
 window.alert(MyVar);
 window.alert("chaine de caractères");
 window.alert(MyVar+ "chaine de caractères");
@@ -10,4 +10,4 @@ reponse3 = "Perdu";
 window.alert (reponse3);
 }
 alert("Vous avez perdu !") ;
-console.log("je vais dormir");*/
+console.log("je vais dormir");
