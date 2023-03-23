@@ -153,46 +153,139 @@ switch (marié) {
 }
 window.alert( "la participation est de " + participationpatron + " euros" + " pour un repas de " + prixrepas + " euros"
 );*/
-var n = 1 ;
+/*###############################################################Exercice 1 du js07###################################################*/
+/*var prenom;
+var prenoms = "";
+var m = 0;
 
-/*while (noms != 0) {
-  var noms = window.prompt(
-    "saississez le prenom N° " + n +" ou cliquez sur annuler pour arreter la saisie");
-  console.log(noms);
-  n++;
-}
-n = n - 1;
-console.log("il y a " + n + " noms saisie" );*/
-
-/*var i = 0 
-while (prenom != 0){ 
-  var prenom= window.prompt("saisissez votre prenom N" + i);
-  console.log(prenom);     
-  i++; } 
-  i=i-1; 
-  console.log(`nombre de prénom saisi:${i}`);*/
-
-  /*var n = 0
-  var i =window.prompt("saisissez un nombre")
-  while (n <i) {
-    n++
-    console.log(n)
+while (prenom != "") {
+  prenom = window.prompt( "saississez le prenom N° " + (m + 1) + " ou cliquez sur annuler pour arreter la saisie");
+  if (prenom != "") {
+    prenoms += prenom + "\n";
+    console.log(prenom);
+    m++;
   }
-*/
-/*var n = 0 ;
-var m =0;
-var i =window.prompt("saisissez un nombre")
-while (n<i) {
-  n++
-  console.log(n)
-  var m = parseInt(m) +parseInt(n) 
-};
-console.log(m)*/
-var p = 0
-var m = window.prompt("saisissez un nombre n1")
-var n = window.prompt("saisissez un nombre n2")
-while (n<m){
-  m++
-  console.log() 
 }
+console.log("nb prenom " +  m);*/
+
+/*###############################################################Exercice 2 du js07###################################################*/
+/*var p = 0 ;
+var q = window.prompt("saisir un nombre") ;
+while (p < q){
+console.log (p)
+p++
+}
+*/
+/*###############################################################Exercice 3 du js07###################################################*/
+/*var g = 0 ;
+var l = 0;
+var n = window.prompt("saisir un nombre");
+while (g < n) {
+  l = parseInt(g) + parseInt(l)
+  g++;
+}
+console.log(l)*/
+/*###############################################################Exercice 4 du js07###################################################*/
+/*var p = 0
+var nombre1 = window.prompt("saisissez un nombre n1")
+var nombre2 = window.prompt("saisissez un nombre n2")
+while (nombre1<nombre2){
+  var p = parseInt(p)+ parseInt(nombre1)+ parseInt(nombre2);
+ nombre1++;
+ nombre2--;
+}
+if (nombre1==nombre2){
+var p =  parseInt(p) + parseInt(nombre1);
+}
+console.log(p) */
+/*##correction exercice 3 avec for##*/
+/*var nb1, nb2;
+var somme = 0;
+
+nb1 = prompt("saisir nb1:");
+nb2 = prompt("saisir nb2:");
+
+for (var i = nb1; i <= nb2; i++) {
+  somme += parseInt(i);
+}
+
+console.log(somme);*/
+/*###############################################################Exercice 5 du js07###################################################*/
+/*var m;
+var e;
+var g;
+while (m != 0 || e != 0) {
+  var m = window.prompt("saisir une valeur1");
+  var e = window.prompt("saisir une valeur2");
+  if (m == 0 || e == 0) {
+    console.log("fin")
+    m=0 ;
+    e=0;
+  }
+  else {
+    var g = parseFloat(m) + parseFloat(e);
+    console.log("la somme est de " + g);
+    var g = g / 2;
+    console.log("la moyenne est de " + g);
+}
+}*/
+/*###############################################################Exercice 6 du js07###################################################*/
+/*var m;
+var e;
+var g;
+var i = 0
+var tableau = [];
+var x = 0;
+var y = 0;
+while (m != 0 || e != 0) {
+  var m = window.prompt("saisir une valeur1");
+  var e = window.prompt("saisir une valeur2");
+  if (m == 0 || e == 0) {
+    console.log("fin")
+    m = 0;
+    e = 0;
+  }
+  else {
+    var g = parseFloat(m) + parseFloat(e);
+    console.log("la somme est de " + g);
+    tableau[i] = g;
+    i++;
+  }
+}*/
+
+
+
+
+/*###############################################################Exercice 7 du js07###################################################*/
+/*var n =window.prompt("entrer un chiffre");
+var x = window.prompt("entrer un chiffre");
+var p = n;
+var t =0;
+n=0;
+do { 
+  n++;
+ var t = n*x ;
+ console.log(n + "*" + x + "= " + t );
+}
+while(n<p) ;*/
+
+/*###############################################################Exercice 8 du js07###################################################*/
+var p = 0;
+var k = 0;
+var i = 0;
+var mp = window.prompt("ecrire un mot ou une phrase");
+console.log(mp.length);
+var p = (mp.length);
+console.log(mp.substring(0, p));
+for (i = 0; i < p; i++) {
+  console.log(mp.substring(i, i + 1));
+  if (mp.substring(i, i + 1) == mp.indexOf("a")) /*|| mp.substring(i, i + 1) == "e" || mp.substring(i, i + 1) == "i" || mp.substring(i, i + 1) == "o" || mp.substring(i, i + 1) == "u" || mp.substring(i, i + 1) == "y");*/
+  {
+    k++;
+  }
+}
+console.log(k)
+
+
+
 
