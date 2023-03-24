@@ -270,22 +270,80 @@ do {
 while(n<p) ;*/
 
 /*###############################################################Exercice 8 du js07###################################################*/
-var p = 0;
-var k = 0;
-var i = 0;
+/*var p = 0;
+
 var mp = window.prompt("ecrire un mot ou une phrase");
 console.log(mp.length);
-var p = (mp.length);
-console.log(mp.substring(0, p));
-for (i = 0; i < p; i++) {
-  console.log(mp.substring(i, i + 1));
-  if (mp.substring(i, i + 1) == mp.indexOf("a")) /*|| mp.substring(i, i + 1) == "e" || mp.substring(i, i + 1) == "i" || mp.substring(i, i + 1) == "o" || mp.substring(i, i + 1) == "u" || mp.substring(i, i + 1) == "y");*/
-  {
-    k++;
+for (i = 0; i < mp.length; i++) {
+  for (var i in mp) {
+    console.log(mp[i]);
+    if (
+      mp[i] == "a" ||
+      mp[i] == "e" ||
+      mp[i] == "i" ||
+      mp[i] == "o" ||
+      mp[i] == "u" ||
+      mp[i] == "y"
+    ){
+      p++;
+    }
+  }
+console.log("nombre de voyelle " + p);*/
+/*###############################################################Exercice 9 du js07###################################################*/
+/*var petit = 0;
+var entre = 0;
+var grand = 0;
+do {
+  var ages = window.prompt("donner un chiffre");
+  if (ages < 20) {
+    petit++;
+  }
+  else if (ages > 40) {
+    grand++;
+  }
+  else {
+    entre++;
   }
 }
-console.log(k)
+while (ages <100 );
+console.log("il y a " + petit + " personnes qui ont moins de 20ans ");
+console.log(" , il y a " + entre + " personnes qui ont entre 20 et 40 ans ");
+console.log("et enfin il y a " + grand + "personnes qui ont plus de 40 ans ") ;*/
+/*###############################################################Exercice 10 du js07###################################################*/
+/*var y = 0;
 
-
-
+while (x != 1 || x != 0) {
+  var x = window.prompt("saisir un nombre");
+  for (i = 1 ; i <= x ;) {
+    y = x % i;
+    if (y == 0) {
+      console.log(x + "n'est pas un nombre premier");
+    }
+    else if ( i > x ) {
+   console.log(x + "est un nombre premier");10
+    }
+    else{
+      i++;
+    }
+  }
+}*/ /* pas bon*/
+/*###############################################################Exercice 11 du js07###################################################*/
+/*
+var magic = parseInt(Math.random()*100);
+while(demande != magic){
+var demande = window.prompt(" saisir un nombre")
+if (demande < magic){
+  window.alert ("trop petit") ;
+  window.confirm("rejouer");
+}
+else if( demande > magic){
+window.alert("trop grand");
+window.confirm("rejouer");
+}
+else{
+window.alert("félicitation") ;
+}
+} */
+/*############################################################# JS08   #######################################################################################*/
+/*###############################################################Exercice 1 du js08###################################################*/
 
