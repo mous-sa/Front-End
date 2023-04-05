@@ -1,0 +1,44 @@
+{
+    "Name": "Chez Mario et luigi",
+    "Slogan": "Pizzaïolo de père en fils",
+    "Pizzas": [
+        {
+            "Nom": "La cheese Lover",
+            "Image": "https://img.circulaire-en-ligne.ca/wp-content/uploads/Pizza-aux-Quatre-Fromages-au-Thermomix.png",
+            "Prix": "12.90euros",
+            "Ingredients": [
+                "Extra fromage",
+                "Feta",
+                "Fromage bleu",
+                "Mozza",
+                "Parmesan",
+                "Raclette",
+                "Camembert"
+            ]
+        },
+        {
+            "Nom": "La Hawaienne",
+            "Image": "https://media.gettyimages.com/id/184928081/fr/photo/pizza-hawa%C3%AFenne.jpg?s=612x612&w=gi&k=20&c=5EUOxsVYoUnSog8XhItiwg9DL94yQJOX9uYUMqcBdyM=",
+            "Prix": "25.90euros",
+            "Ingredients": [
+                "Poulet",
+                "Mozza",
+                "Ananas",
+                "Mangue",
+                "Olives"
+            ]
+        },
+        {
+            "Nom": "La Regina",
+            "Image": "https://img.cuisine-etudiant.fr/image/recette/800500/30a08382dd90bcc6e242e84055b2578cf12df04b-recipe.jpg",
+            "Prix": "22.90euros",
+            "Ingredients": [
+                "Mozza",
+                "Jambon",
+                "Tomate",
+                "Olives",
+                "Champignons"
+            ]
+        }
+    ]
+}
