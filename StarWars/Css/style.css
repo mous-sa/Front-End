@@ -1,0 +1,44 @@
+* {
+  color: white;
+  background-color: rgb(134, 130, 130);
+  font-family: "roboto", sans-serif;
+}
+
+
+.nav-link {
+  color: white;
+}
+.nav {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  justify-content: space-around;
+}
+
+.titre-Accueil {
+  color: yellow;
+  text-align: center;
+  font-size: 2rem;
+}
+.img-Accueil {
+  margin-top: 10rem;
+  margin-left: 25rem;
+}
+
+h1 {
+  background-color: black;
+  margin-bottom: 0;
+}
+#ulName {
+  display: flex;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-left: 0;
+  margin-bottom: 0;
+
+}
+.container-fluid {
+  width: 80%;
+}
+button{
+  width: 8rem;
+}
