@@ -128,7 +128,7 @@ async function fetchAPI(url, type, urldonne) {
             break;
           //...................
           default:
-            break;
+            
         }
       });
   } catch (error) {
@@ -144,11 +144,4 @@ function affiche(Records) {
 
 fetchAPI("https://swapi.dev/api/", "people", false);
 
-let input = document.createElement("input");
-document.getElementById("ulName").appendChild(input);
-input.innerHTML = "";
- input.addEventListener("click", ()=>{
-console.log("click");
- }) ;
-
-//document.getElementsByTagName("input").appendChild(starWarsList) ;
+var luke

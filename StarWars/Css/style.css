@@ -4,7 +4,6 @@
   font-family: "roboto", sans-serif;
 }
 
-
 .nav-link {
   color: white;
 }
@@ -19,26 +18,42 @@
   text-align: center;
   font-size: 2rem;
 }
-.img-Accueil {
-  margin-top: 10rem;
-  margin-left: 25rem;
-}
 
 h1 {
   background-color: black;
   margin-bottom: 0;
 }
-#ulName {
-  display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
-  padding-left: 0;
-  margin-bottom: 0;
 
-}
 .container-fluid {
   width: 80%;
+  align-items: center;
 }
-button{
-  width: 8rem;
+
+.imgsAccueil{
+  display: flex;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#imgAccueil1{
+width: 35rem;
+height: 26rem;
+margin-top: 2rem;
+margin-right:5rem ;
+}
+#imgAccueil2{
+  width: 37rem ;
+  height: 26rem;
+  margin-top: 2rem;
+}
+#imgAccueil3{
+  width: 70rem ;
+  height: 12rem;
+  margin-top: 2rem;
+}
+#ulName {
+  padding-top: 0.5rem;
+  padding-left: 0;
+  margin-bottom: 0;
+  flex-direction: column;
 }
